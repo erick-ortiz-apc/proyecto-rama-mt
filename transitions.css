@@ -34,6 +34,24 @@
     animation-fill-mode: forwards;
 }
 
+.container-pla-tar1{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mujer-entrenamiento.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container-pla-tar2{
+    width: 100%;
+    height: 100%;
+    animation-name: fondo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
 
 
 
