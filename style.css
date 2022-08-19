@@ -226,11 +226,11 @@ footer{
 }
 
 .pie-pagina p{
-    font-size: 1vw;
+    font-size: 1.4vw;
     font-family: sans-serif;
     color: #fff;
     text-shadow: 2px 2px 2px #000;
-    padding-top: 2.5em;
+    padding-top: 2em;
 } 
 
 @media only screen and (max-width: 1200px) and (orientation: landscape){
@@ -240,12 +240,6 @@ footer{
 }
 
 @media only screen and (max-width: 1024px) and (orientation: landscape){
-    .container-inicio1{
-        min-height: 400px;
-    }
-}
-
-@media only screen and (max-width: 768px) and (orientation: landscape){
     .container-inicio1{
         min-height: 400px;
     }
@@ -259,7 +253,7 @@ footer{
         width: 100%;
         height: 0vh;
         top: 27%;
-        background: rgba(0, 0, 0, .90);
+        background: rgba(0, 0, 0, .7);
         text-align: center;
         transition: all .5s;
     }
@@ -274,6 +268,10 @@ footer{
     .nav-menu li a{
         font-size: 2vw;
     }
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape){
+    
 }
 
 @media only screen and (max-width: 480px) and (orientation: landscape){
@@ -316,7 +314,7 @@ footer{
 
 @media only screen and (max-width: 1200px) and (orientation: portrait){
     .container-inicio1{
-        min-width: 200px;
+        min-height: 360px;
     }
 
     nav{
@@ -336,6 +334,15 @@ footer{
     .banner-text h3{
         margin-top: 5em;
     }
+
+    .nav-menu li a{
+        font-size: 1.7vw;
+    }
+
+    .pie-pagina p{
+        font-size: 2vw;
+        margin-top: 4.5em;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (orientation: portrait){
@@ -344,7 +351,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 768px) and (orientation: portrait){
+@media only screen and (max-width: 900px) and (orientation: portrait){
     .container-inicio1{
         min-height: 400px;
     }
@@ -358,7 +365,7 @@ footer{
         width: 100%;
         height: 0vh;
         top: 27%;
-        background: rgba(0, 0, 0, .90);
+        background: rgba(0, 0, 0, .7);
         text-align: center;
         transition: all .5s;
     }
@@ -371,7 +378,34 @@ footer{
     }
 
     .nav-menu li a{
-        font-size: 2.5vw;
+        font-size: 4.5vw;
+    }
+
+    .banner-text h2{
+        font-size: 5vw;
+    }
+    .banner-text h1{
+        font-size: 10vw;
+    }
+    
+    .banner-text h3{
+        font-size: 4vw;
+        margin: 2em 0 2em;
+    }
+    
+    .button{
+        padding: 1em 2.5em;
+        font-size: 3.5vw;
+        border-radius: 50px;
+    }
+
+    .button:hover{
+        font-size: 4vw;
+    }
+
+    .pie-pagina p{
+        font-size: 3vw;
+        padding-top: 4.5em;
     }
 }
 
@@ -395,12 +429,5 @@ footer{
 @media only screen and (max-width: 320px) and (orientation: portrait){
     .container-inicio1{
         min-height: 130px;
-    }
-
-    .nav-menu li{
-        display: none;
-        line-height: 1em;
-        margin: 1.5em 0;
-        transition: all .5s;
     }
 }
